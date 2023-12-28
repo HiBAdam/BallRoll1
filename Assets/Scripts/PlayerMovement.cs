@@ -9,7 +9,6 @@ public class PlayerMovement : MonoBehaviour
     private Rigidbody rb;
     [SerializeField] private float speed;
     private int count;
-    public float slow;
     [SerializeField] private TMP_Text countText;
     // Start is called before the first frame update
     void Start()
